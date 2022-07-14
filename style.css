@@ -156,7 +156,7 @@ body.dark{
     color:white;
 }
 .main .add_to_cart .button_add button{
-    background-color: var(--color_carritoi);
+    background-color: var(--color_negro);
     height: 70px;
     width: 120px;
     border: none;

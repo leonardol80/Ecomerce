@@ -208,7 +208,6 @@ items.addEventListener('click',function(e){
             templateCarrito.querySelector('span').textContent= parseInt(producto.cantidad)*parseInt(producto.price,10) 
             templateCarrito.querySelector('.btn-info').dataset.id=producto.id
             templateCarrito.querySelector('.btn-danger').dataset.id=producto.id
-            templateCarrito.querySelector('.comprar').dataset.id=producto.id
 
             const clone = templateCarrito.cloneNode(true);
             fragment.appendChild(clone)
@@ -269,17 +268,6 @@ items.addEventListener('click',function(e){
             e.stopPropagation();
         }
     
-//COMPRAR CARRITO
-
-// const btnComprar = document.getElementById('comprar')
-//         btnComprar.addEventListener('click',function(){
-//             carrito={}
-//             pintarCarrito();
-//             document.querySelector('.total_prod').textContent=0; 
-//         })
-        
-
-
 //! SCROLL DE MI CABECERA
 const cabezeraTop = document.querySelector(".navbar");
 
